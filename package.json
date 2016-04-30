@@ -1,6 +1,26 @@
 {
+  "name": "ts.helpers",
+  "version": "1.0.0",
+  "description": "TypeScript helper functionality",
+  "scripts": {
+    "build": "npm install & tsc"
+  },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^2.13.0"
-  }
+    "typescript": "^1.8.10",
+    "gulp" : "^3.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colicode/ts.helpers.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "helpers"
+  ],
+  "author": "Coli Code",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/colicode/ts.helpers/issues"
+  },
+  "homepage": "https://github.com/colicode/ts.helpers#readme"
 }
